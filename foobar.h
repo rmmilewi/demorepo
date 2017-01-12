@@ -3,5 +3,9 @@ int foo(int x) {
 }
 
 int bar(int x) {
-	return x + 3;
+	return baz(x) + 3;
+}
+
+int baz(int x) {
+	return x / 2;
 }
